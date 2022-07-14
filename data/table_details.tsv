@@ -1,0 +1,27 @@
+table_name	field_name	field_type	field_description
+papers	id	int	Primary key.
+papers	year	int	Year of publication.
+papers	authors	array (string)	List of authors, separated by ";".
+papers	title	string	Paper's title.
+papers	publication	string	Journal in which the paper was published.
+papers	group	string	Type of paper for categorization purposes. Possible values: Experimental, Survey.
+papers	doi	string	Digital object identifier.
+papers	citations	int	Number of times this paper was cited, according to Google Scholar (accessed 2022-07-14).
+papers	impact	float	Paper's impact, measured as citations/(years since publication).
+papers	learning_categories	array (string)	Types of machine learning models used in the experiment, separated by ";". Will only be populated if group = Experimental. There may be multiple types in one field, but the possible types are: suprevised, unsupervised, semi-supervised, reinforcement.
+papers	models_implemented	array (string)	Names of the models implemented, separated by ";". Wiill only be popluated if group = Experimental.
+papers	key_words	array (string)	Key words defined by the paper, separated by ";" (optional).
+papers	abstract	string	Paper's abstract (optional).
+authors	id	int	Primary key.
+authors	full_name	string	Full name of author as stated in the paper.
+authors	sub_institution	string	Research group or laboratory or sub group to which the author is afiliated to, within an institution (optional).
+authors	institution	string	Institution to which the author is afiliated to. Can be a university, company, laboratory, etc.
+authors	city	string	City in which the institution is located.
+authors	country	string	Country in which the institution is located.
+authors	sub_institution_2	string	Secondary sub_institution (optional).
+authors	institution_2	string	Secondary institution (optional).
+authors	city_2	string	City of secondary institution (optional).
+authors	country_2	string	Country of secondary institution (optional).
+cited	source_id	int	Id of source paper.
+cited	source_title	string	Title of source paper.
+cited	target_ids	array (int)	Ids of in-scope papers cited by source paper, separated by ";"
