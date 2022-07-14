@@ -1,1 +1,1 @@
-# auotmated_log_analysis_review
+# Automated Log Analysis Review
