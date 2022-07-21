@@ -1,5 +1,5 @@
 # Automated Log Analysis Review
-## Final project for Specialization in Data Science (Instituto Tecnológico de Buenos Aires')
+## Final project for Specialization in Data Science (Instituto Tecnológico de Buenos Aires)
 
 > In this project, I gathered data from various research papers working on Automated Log Analysis using Machine Learning, and generated a series of visualisations with these data.
 
