@@ -11,7 +11,7 @@ source_id	source_title	target_ids
 10	Analysis of Network log data using Machine Learning	5;7
 11	Improving the system log analysis with language model and semi-supervised classifier	
 12	Robust log-based anomaly detection on unstable log data	8;4;1;3
-13	A Survey on Log Anomaly Detection using Deep Learning	9;4;6;13;9;2;1
+13	A Survey on Log Anomaly Detection using Deep Learning	9;4;6;9;2;1
 14	Automatic log analysis with NLP for the CMS workflow handling	
 15	Physical Access Log Analysis: An Unsupervised Clustering Approach for Anomaly Detection	1
 16	Unsupervised log message anomaly detection	3;4;2
